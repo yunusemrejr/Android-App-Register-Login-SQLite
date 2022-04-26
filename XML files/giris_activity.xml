@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:padding="10dp"
+    tools:context=".GirisYapActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="330dp"
+        android:layout_height="275dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="360dp"
+        android:background="#673AB7"
+        app:srcCompat="@mipmap/resim_foreground" />
+
+    <EditText
+        android:id="@+id/kullaniciadi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:hint="KULLANICI ADI (username)"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/ksifresi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kullaniciadi"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:hint="ŞİFRE (password)"
+        android:inputType="text"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/girisbtn"
+        android:layout_width="257dp"
+        android:layout_height="93dp"
+        android:layout_below="@+id/ksifresi"
+        android:layout_marginTop="50dp"
+        android:text="GİRİŞ YAP (login)"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textStyle="bold|italic" />
+</RelativeLayout>
