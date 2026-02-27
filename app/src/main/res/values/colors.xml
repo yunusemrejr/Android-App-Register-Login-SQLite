@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design 3 Color Scheme -->
+    <color name="primary">#FF6B35</color>
+    <color name="primary_dark">#E85A2A</color>
+    <color name="primary_light">#FF8C61</color>
+    
+    <color name="secondary">#004E89</color>
+    <color name="secondary_dark">#003D6B</color>
+    <color name="secondary_light">#3374A8</color>
+    
+    <color name="accent">#FFC857</color>
+    <color name="accent_dark">#E6B34F</color>
+    
+    <color name="background">#F8F9FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#D32F2F</color>
+    
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_background">#1A1A1A</color>
+    <color name="on_surface">#1A1A1A</color>
+    <color name="on_error">#FFFFFF</color>
+    
+    <!-- Additional Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="divider">#BDBDBD</color>
+    
+    <!-- Legacy colors for compatibility -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
