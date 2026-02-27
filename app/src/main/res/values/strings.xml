@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Restaurant Menu</string>
+    
+    <!-- Main Activity -->
+    <string name="welcome_title">Welcome to Restaurant App</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="register_button">Register</string>
+    <string name="login_button">Already have an account? Login</string>
+    <string name="skip_button">Skip Login</string>
+    <string name="register_subtitle">Create a new account</string>
+    <string name="login_subtitle">Sign in to your account</string>
+    
+    <!-- Login Activity -->
+    <string name="login_title">Login</string>
+    <string name="login_action">Sign In</string>
+    
+    <!-- Menu Activity -->
+    <string name="menu_title">Our Menu</string>
+    <string name="logout_button">Logout</string>
+    
+    <!-- Categories -->
+    <string name="category_main">Main Course</string>
+    <string name="category_soup">Soup</string>
+    <string name="category_vegetable">Vegetable</string>
+    
+    <!-- Validation Messages -->
+    <string name="error_empty_fields">Please fill in all fields</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_username_exists">Username already exists, please try logging in</string>
+    <string name="error_registration_failed">Registration failed, please try again</string>
+    <string name="error_invalid_credentials">Invalid username or password</string>
+    <string name="error_username_short">Username must be at least 3 characters</string>
+    <string name="error_password_weak">Password must be at least 6 characters</string>
+    
+    <!-- Success Messages -->
+    <string name="success_registration">Registration successful!</string>
+    <string name="success_login">Login successful!</string>
+</resources>
